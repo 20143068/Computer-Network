@@ -175,9 +175,9 @@ int count(char *c, char x)  // 특정 문자의 갯수를 구하는 함수
 	for(i = 0; c[i] != '\0' ; i++)
 	{
 		if(c[i] == x)
-				cnt++;
+			cnt++;
 		else
-		 		continue;
+			continue;
 	}
 	return cnt;
 }
